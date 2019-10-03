@@ -1,0 +1,14 @@
+one client establishs a connection
+POST /index.html HTTP/1.1
+Host: localhost:9999
+Content-Type: application/x-www-form-urlencoded
+Origin: file://
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari/522.0
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 23
+
+uname=Jiadaye&pwd=soeas

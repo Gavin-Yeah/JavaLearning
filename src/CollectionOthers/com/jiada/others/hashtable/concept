@@ -1,0 +1,32 @@
+1.Hashtable 与 hashmap 的区别
+a。主要：hashtable线程安全，同步，效率小队低下
+		hashmap 线程不安全，非同步，效率相对高
+b。父类： hashtable 是 dictionary， hashmap 是 abstractmap
+c.null： hashtable 键与值不能为null
+			hashmap键最多一个null，值可以多个null
+2. properties
+a。作用：读写资源配置文件
+b。键与值只能为字符
+c。方法：
+setProperty(String key, String value)
+getProperty(String key)
+getProperty(String key, String defaultValue) 如果不存在，返回defaultvalue的值
+
+后缀： .properties
+	store(OutputStream out, String comments)
+	store(Writer wirter, String comments)
+	load(InputStram inStream)
+	load(Reader reader)
+
+.xml
+	storeToXML(OutputStream os, String comments) :UTF-8字符集
+	storeToXML(OutputStream os, String comments, String encoding)
+	load(InputStream in)
+相对路径与绝对路径
+1.相对路径 盘符: : /
+2.绝对路径 当前项目 工程
+
+4.类路径加载资源文件
+类所在跟路径
+a。类.class.getResourceAsStream("/")
+b.Thread.currentThread().getContextLoader().getResourceAsStream("")

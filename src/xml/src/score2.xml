@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 引入外部dtd文件 -->
+<!DOCTYPE scores SYSTEM "scores.dtd">
+
+<scores>
+	<student id="1">
+		<name>wangtong</name>
+		<course>java</course>
+		<score>89</score>
+	</student>
+	<student id="2">
+		<name>wantong</name>
+		<course>java</course>
+		<score>89</score>
+	</student>
+	<student id="3">
+	<name></name>
+	<course></course>
+	<score></score>
+	</student>
+	
+</scores>

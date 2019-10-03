@@ -1,0 +1,11 @@
+进入就绪状态：
+1.start（）
+2.阻塞接触
+3.yield（）
+jvm切换
+
+进入阻塞状态
+1，sleep（）
+2.join（）
+3.wait（）
+4.read（） write（）

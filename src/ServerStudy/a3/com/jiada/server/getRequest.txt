@@ -1,0 +1,10 @@
+one client establishs a connection
+GET /login.html?pwd=jiadaye HTTP/1.1
+Host: localhost:9999
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Cookie: username-localhost-8888="2|1:0|10:1551831764|23:username-localhost-8888|44:ODlmOGMwZTFiZTA0NGNlYmJlZWE1YWZlYzBhZDM4ZDI=|d261cdbdb5049e85ddd4341dae3fc4521408b423a43434c05b7ac0d8e18eaab7"; username-localhost-8889="2|1:0|10:1551082510|23:username-localhost-8889|44:ZGI3MmVhZTBjMTRhNDJmYTlkY2EyMTUyODg0MzYxMjg=|c77def18717ee58e72ffcc7a976c2b16a4ca637cf62667573e3e1c6c0748ca20"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
